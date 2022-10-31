@@ -6,9 +6,7 @@
 
 int main(){
     /*Initialisieren*/
-    float zahl1;
-    float zahl2;
-    float ergebnis;
+    float zahl1, zahl2, ergebnis;
     char operator;
     /*Ein/Ausgabe Konzept*/
     printf("Geben Sie die erste Zahl ein:\n");
