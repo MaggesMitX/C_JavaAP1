@@ -20,7 +20,7 @@ bool is_even(int sum){
 }
 
 int main(){
-    int num = 15;
+    int num =;
     int sum;
 
     printf("Bitte geben Sie eine Zahl ein die Sie durch 2 teilen wollen:\n");

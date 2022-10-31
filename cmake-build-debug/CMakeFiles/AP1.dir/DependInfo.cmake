@@ -8,10 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/maxim/CLionProjects/AP1/01/src/calculator.c" "CMakeFiles/AP1.dir/01/src/calculator.c.obj" "gcc" "CMakeFiles/AP1.dir/01/src/calculator.c.obj.d"
-  "C:/Users/maxim/CLionProjects/AP1/01/src/divideInt.c" "CMakeFiles/AP1.dir/01/src/divideInt.c.obj" "gcc" "CMakeFiles/AP1.dir/01/src/divideInt.c.obj.d"
-  "C:/Users/maxim/CLionProjects/AP1/01/src/hallo.c" "CMakeFiles/AP1.dir/01/src/hallo.c.obj" "gcc" "CMakeFiles/AP1.dir/01/src/hallo.c.obj.d"
-  "C:/Users/maxim/CLionProjects/AP1/01/src/triangle.c" "CMakeFiles/AP1.dir/01/src/triangle.c.obj" "gcc" "CMakeFiles/AP1.dir/01/src/triangle.c.obj.d"
+  "C:/Users/mramacher/CLionProjects/AP1/01/src/calculator.c" "CMakeFiles/AP1.dir/01/src/calculator.c.obj" "gcc" "CMakeFiles/AP1.dir/01/src/calculator.c.obj.d"
+  "C:/Users/mramacher/CLionProjects/AP1/01/src/divideInt.c" "CMakeFiles/AP1.dir/01/src/divideInt.c.obj" "gcc" "CMakeFiles/AP1.dir/01/src/divideInt.c.obj.d"
+  "C:/Users/mramacher/CLionProjects/AP1/01/src/hallo.c" "CMakeFiles/AP1.dir/01/src/hallo.c.obj" "gcc" "CMakeFiles/AP1.dir/01/src/hallo.c.obj.d"
+  "C:/Users/mramacher/CLionProjects/AP1/01/src/triangle.c" "CMakeFiles/AP1.dir/01/src/triangle.c.obj" "gcc" "CMakeFiles/AP1.dir/01/src/triangle.c.obj.d"
   )
 
 # Targets to which this target links.
