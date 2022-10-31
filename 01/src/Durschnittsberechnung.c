@@ -2,11 +2,11 @@
 // Created by MRamacher on 31.10.2022.
 //
 #include <stdio.h>
-#include <math.h>
 
 void calculation(){
     /* Eingabe der 10 benötigten Variablen*/
-    int a,b,c,d,e,f,g,h,i,j, sum = 0;
+    int a,b,c,d,e,f,g,h,i,j = 0;
+    float sum = 0;
 
     printf("Bitte geben Sie die erste Zahl ein:\n");
     scanf(" %i",&a);
@@ -38,10 +38,10 @@ void calculation(){
     printf("Bitte geben Sie die zehnte Zahl ein:\n");
     scanf(" %i",&j);
 
-    sum = a+b+c+d+e+f+g+h+i+j / 2;
-    printf("Das Ergbnis ist %i", &sum);
+    sum = (a+b+c+d+e+f+g+h+i+j) / 10;
+    printf("Das Ergbnis ist %.2f", sum);
 }
 int main(){
     calculation();
-    printf("Done...");
+    printf("Done...\n");
 }

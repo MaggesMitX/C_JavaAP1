@@ -7,8 +7,8 @@ void triangle(){
     int a = 0;
     int b = 0;
     int c = 0;
-    float s =0.0;
-    float sum;
+    float s = 0;
+    float sum = 0;
 
     printf("**********************************************\n");
     printf("Gegeben ist ein Dreieck mit den Gezeichneten Seiten a,b und c\n");
@@ -22,20 +22,20 @@ void triangle(){
     printf("                        (c)\n");
     printf("Bitte geben Sie die Laenge der einzelnen Seiten zur Flaechenberechnung ein!\n");
     printf("Laenge Seite a:\n");
-    scanf(" %i\n",&a);
-    printf("Eingegebene Seite a: %f\n", a);
+    scanf(" %.2f\n",&a);
+    printf("Eingegebene Seite a: %.2f\n", a);
     printf("Laenge Seite b:\n");
-    scanf(" %i\n",&b);
-    printf("Eingegebene Seite b: %f\n", b);
+    scanf(" %.2f\n",&b);
+    printf("Eingegebene Seite b: %.2f\n", b);
     printf("Laenge Seite c:\n");
-    scanf(" %i\n",&c);
-    printf("Eingegebene Seite c: %f\n", c);
+    scanf(" %.2f\n",&c);
+    printf("Eingegebene Seite c: %.2f\n", c);
 
     s = (a+b+c) / 2;
-    printf("%2f", s);
+    printf("%.2f", s);
 
-    sum = sqrt(s * s - a * s - b * s - b);
-    printf("Das Ergebnis ist %f", sum);
+    sum = sqrt(s * (s - a) * (s - b) * (s - b));
+    printf("Das Ergebnis ist %.2f", sum);
 }
 
 int main(){
