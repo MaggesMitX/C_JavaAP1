@@ -47,19 +47,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "F:\CLion IntelliJ\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "F:\CLion IntelliJ\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\mramacher\CLionProjects\AP1
+CMAKE_SOURCE_DIR = C:\Users\maxim\CLionProjects\AP1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\mramacher\CLionProjects\AP1\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\maxim\CLionProjects\AP1\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -67,7 +67,7 @@ CMAKE_BINARY_DIR = C:\Users\mramacher\CLionProjects\AP1\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"F:\CLion IntelliJ\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -77,7 +77,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"F:\CLion IntelliJ\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\mramacher\CLionProjects\AP1\cmake-build-debug\CMakeFiles C:\Users\mramacher\CLionProjects\AP1\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\maxim\CLionProjects\AP1\cmake-build-debug\CMakeFiles C:\Users\maxim\CLionProjects\AP1\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\mramacher\CLionProjects\AP1\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\maxim\CLionProjects\AP1\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -200,6 +200,30 @@ AP1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\AP1.dir\build.make CMakeFiles/AP1.dir/01/src/hallo.c.s
 .PHONY : 01/src/hallo.c.s
 
+01/src/mittelwert.obj: 01/src/mittelwert.c.obj
+.PHONY : 01/src/mittelwert.obj
+
+# target to build an object file
+01/src/mittelwert.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AP1.dir\build.make CMakeFiles/AP1.dir/01/src/mittelwert.c.obj
+.PHONY : 01/src/mittelwert.c.obj
+
+01/src/mittelwert.i: 01/src/mittelwert.c.i
+.PHONY : 01/src/mittelwert.i
+
+# target to preprocess a source file
+01/src/mittelwert.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AP1.dir\build.make CMakeFiles/AP1.dir/01/src/mittelwert.c.i
+.PHONY : 01/src/mittelwert.c.i
+
+01/src/mittelwert.s: 01/src/mittelwert.c.s
+.PHONY : 01/src/mittelwert.s
+
+# target to generate assembly for a file
+01/src/mittelwert.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AP1.dir\build.make CMakeFiles/AP1.dir/01/src/mittelwert.c.s
+.PHONY : 01/src/mittelwert.c.s
+
 01/src/triangle.obj: 01/src/triangle.c.obj
 .PHONY : 01/src/triangle.obj
 
@@ -242,6 +266,9 @@ help:
 	@echo ... 01/src/hallo.obj
 	@echo ... 01/src/hallo.i
 	@echo ... 01/src/hallo.s
+	@echo ... 01/src/mittelwert.obj
+	@echo ... 01/src/mittelwert.i
+	@echo ... 01/src/mittelwert.s
 	@echo ... 01/src/triangle.obj
 	@echo ... 01/src/triangle.i
 	@echo ... 01/src/triangle.s

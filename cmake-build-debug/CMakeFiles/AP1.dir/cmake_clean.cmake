@@ -8,6 +8,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/AP1.dir/01/src/divideInt.c.obj.d"
   "CMakeFiles/AP1.dir/01/src/hallo.c.obj"
   "CMakeFiles/AP1.dir/01/src/hallo.c.obj.d"
+  "CMakeFiles/AP1.dir/01/src/mittelwert.c.obj"
+  "CMakeFiles/AP1.dir/01/src/mittelwert.c.obj.d"
   "CMakeFiles/AP1.dir/01/src/triangle.c.obj"
   "CMakeFiles/AP1.dir/01/src/triangle.c.obj.d"
   "libAP1.dll.a"

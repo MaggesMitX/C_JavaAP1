@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "AP1::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-AP1-Debug-ec76884a19419fc1a701.json",
+					"jsonFile" : "target-AP1-Debug-4aaca38f428fa2f9bf72.json",
 					"name" : "AP1",
 					"projectIndex" : 0
 				}
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/mramacher/CLionProjects/AP1/cmake-build-debug",
-		"source" : "C:/Users/mramacher/CLionProjects/AP1"
+		"build" : "C:/Users/maxim/CLionProjects/AP1/cmake-build-debug",
+		"source" : "C:/Users/maxim/CLionProjects/AP1"
 	},
 	"version" : 
 	{

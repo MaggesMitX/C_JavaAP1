@@ -43,19 +43,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "F:\CLion IntelliJ\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "F:\CLion IntelliJ\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\mramacher\CLionProjects\AP1
+CMAKE_SOURCE_DIR = C:\Users\maxim\CLionProjects\AP1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\mramacher\CLionProjects\AP1\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\maxim\CLionProjects\AP1\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/AP1.dir/depend.make
@@ -71,65 +71,80 @@ include CMakeFiles/AP1.dir/flags.make
 CMakeFiles/AP1.dir/01/src/hallo.c.obj: CMakeFiles/AP1.dir/flags.make
 CMakeFiles/AP1.dir/01/src/hallo.c.obj: ../01/src/hallo.c
 CMakeFiles/AP1.dir/01/src/hallo.c.obj: CMakeFiles/AP1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\mramacher\CLionProjects\AP1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/AP1.dir/01/src/hallo.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AP1.dir/01/src/hallo.c.obj -MF CMakeFiles\AP1.dir\01\src\hallo.c.obj.d -o CMakeFiles\AP1.dir\01\src\hallo.c.obj -c C:\Users\mramacher\CLionProjects\AP1\01\src\hallo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\maxim\CLionProjects\AP1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/AP1.dir/01/src/hallo.c.obj"
+	"F:\CLion IntelliJ\CLion 2022.2.4\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AP1.dir/01/src/hallo.c.obj -MF CMakeFiles\AP1.dir\01\src\hallo.c.obj.d -o CMakeFiles\AP1.dir\01\src\hallo.c.obj -c C:\Users\maxim\CLionProjects\AP1\01\src\hallo.c
 
 CMakeFiles/AP1.dir/01/src/hallo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/AP1.dir/01/src/hallo.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\mramacher\CLionProjects\AP1\01\src\hallo.c > CMakeFiles\AP1.dir\01\src\hallo.c.i
+	"F:\CLion IntelliJ\CLion 2022.2.4\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\maxim\CLionProjects\AP1\01\src\hallo.c > CMakeFiles\AP1.dir\01\src\hallo.c.i
 
 CMakeFiles/AP1.dir/01/src/hallo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/AP1.dir/01/src/hallo.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\mramacher\CLionProjects\AP1\01\src\hallo.c -o CMakeFiles\AP1.dir\01\src\hallo.c.s
+	"F:\CLion IntelliJ\CLion 2022.2.4\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\maxim\CLionProjects\AP1\01\src\hallo.c -o CMakeFiles\AP1.dir\01\src\hallo.c.s
 
 CMakeFiles/AP1.dir/01/src/calculator.c.obj: CMakeFiles/AP1.dir/flags.make
 CMakeFiles/AP1.dir/01/src/calculator.c.obj: ../01/src/calculator.c
 CMakeFiles/AP1.dir/01/src/calculator.c.obj: CMakeFiles/AP1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\mramacher\CLionProjects\AP1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/AP1.dir/01/src/calculator.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AP1.dir/01/src/calculator.c.obj -MF CMakeFiles\AP1.dir\01\src\calculator.c.obj.d -o CMakeFiles\AP1.dir\01\src\calculator.c.obj -c C:\Users\mramacher\CLionProjects\AP1\01\src\calculator.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\maxim\CLionProjects\AP1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/AP1.dir/01/src/calculator.c.obj"
+	"F:\CLion IntelliJ\CLion 2022.2.4\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AP1.dir/01/src/calculator.c.obj -MF CMakeFiles\AP1.dir\01\src\calculator.c.obj.d -o CMakeFiles\AP1.dir\01\src\calculator.c.obj -c C:\Users\maxim\CLionProjects\AP1\01\src\calculator.c
 
 CMakeFiles/AP1.dir/01/src/calculator.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/AP1.dir/01/src/calculator.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\mramacher\CLionProjects\AP1\01\src\calculator.c > CMakeFiles\AP1.dir\01\src\calculator.c.i
+	"F:\CLion IntelliJ\CLion 2022.2.4\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\maxim\CLionProjects\AP1\01\src\calculator.c > CMakeFiles\AP1.dir\01\src\calculator.c.i
 
 CMakeFiles/AP1.dir/01/src/calculator.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/AP1.dir/01/src/calculator.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\mramacher\CLionProjects\AP1\01\src\calculator.c -o CMakeFiles\AP1.dir\01\src\calculator.c.s
+	"F:\CLion IntelliJ\CLion 2022.2.4\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\maxim\CLionProjects\AP1\01\src\calculator.c -o CMakeFiles\AP1.dir\01\src\calculator.c.s
 
 CMakeFiles/AP1.dir/01/src/triangle.c.obj: CMakeFiles/AP1.dir/flags.make
 CMakeFiles/AP1.dir/01/src/triangle.c.obj: ../01/src/triangle.c
 CMakeFiles/AP1.dir/01/src/triangle.c.obj: CMakeFiles/AP1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\mramacher\CLionProjects\AP1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/AP1.dir/01/src/triangle.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AP1.dir/01/src/triangle.c.obj -MF CMakeFiles\AP1.dir\01\src\triangle.c.obj.d -o CMakeFiles\AP1.dir\01\src\triangle.c.obj -c C:\Users\mramacher\CLionProjects\AP1\01\src\triangle.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\maxim\CLionProjects\AP1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/AP1.dir/01/src/triangle.c.obj"
+	"F:\CLion IntelliJ\CLion 2022.2.4\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AP1.dir/01/src/triangle.c.obj -MF CMakeFiles\AP1.dir\01\src\triangle.c.obj.d -o CMakeFiles\AP1.dir\01\src\triangle.c.obj -c C:\Users\maxim\CLionProjects\AP1\01\src\triangle.c
 
 CMakeFiles/AP1.dir/01/src/triangle.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/AP1.dir/01/src/triangle.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\mramacher\CLionProjects\AP1\01\src\triangle.c > CMakeFiles\AP1.dir\01\src\triangle.c.i
+	"F:\CLion IntelliJ\CLion 2022.2.4\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\maxim\CLionProjects\AP1\01\src\triangle.c > CMakeFiles\AP1.dir\01\src\triangle.c.i
 
 CMakeFiles/AP1.dir/01/src/triangle.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/AP1.dir/01/src/triangle.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\mramacher\CLionProjects\AP1\01\src\triangle.c -o CMakeFiles\AP1.dir\01\src\triangle.c.s
+	"F:\CLion IntelliJ\CLion 2022.2.4\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\maxim\CLionProjects\AP1\01\src\triangle.c -o CMakeFiles\AP1.dir\01\src\triangle.c.s
 
 CMakeFiles/AP1.dir/01/src/divideInt.c.obj: CMakeFiles/AP1.dir/flags.make
 CMakeFiles/AP1.dir/01/src/divideInt.c.obj: ../01/src/divideInt.c
 CMakeFiles/AP1.dir/01/src/divideInt.c.obj: CMakeFiles/AP1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\mramacher\CLionProjects\AP1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/AP1.dir/01/src/divideInt.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AP1.dir/01/src/divideInt.c.obj -MF CMakeFiles\AP1.dir\01\src\divideInt.c.obj.d -o CMakeFiles\AP1.dir\01\src\divideInt.c.obj -c C:\Users\mramacher\CLionProjects\AP1\01\src\divideInt.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\maxim\CLionProjects\AP1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/AP1.dir/01/src/divideInt.c.obj"
+	"F:\CLion IntelliJ\CLion 2022.2.4\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AP1.dir/01/src/divideInt.c.obj -MF CMakeFiles\AP1.dir\01\src\divideInt.c.obj.d -o CMakeFiles\AP1.dir\01\src\divideInt.c.obj -c C:\Users\maxim\CLionProjects\AP1\01\src\divideInt.c
 
 CMakeFiles/AP1.dir/01/src/divideInt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/AP1.dir/01/src/divideInt.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\mramacher\CLionProjects\AP1\01\src\divideInt.c > CMakeFiles\AP1.dir\01\src\divideInt.c.i
+	"F:\CLion IntelliJ\CLion 2022.2.4\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\maxim\CLionProjects\AP1\01\src\divideInt.c > CMakeFiles\AP1.dir\01\src\divideInt.c.i
 
 CMakeFiles/AP1.dir/01/src/divideInt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/AP1.dir/01/src/divideInt.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\mramacher\CLionProjects\AP1\01\src\divideInt.c -o CMakeFiles\AP1.dir\01\src\divideInt.c.s
+	"F:\CLion IntelliJ\CLion 2022.2.4\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\maxim\CLionProjects\AP1\01\src\divideInt.c -o CMakeFiles\AP1.dir\01\src\divideInt.c.s
+
+CMakeFiles/AP1.dir/01/src/mittelwert.c.obj: CMakeFiles/AP1.dir/flags.make
+CMakeFiles/AP1.dir/01/src/mittelwert.c.obj: ../01/src/mittelwert.c
+CMakeFiles/AP1.dir/01/src/mittelwert.c.obj: CMakeFiles/AP1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\maxim\CLionProjects\AP1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/AP1.dir/01/src/mittelwert.c.obj"
+	"F:\CLion IntelliJ\CLion 2022.2.4\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AP1.dir/01/src/mittelwert.c.obj -MF CMakeFiles\AP1.dir\01\src\mittelwert.c.obj.d -o CMakeFiles\AP1.dir\01\src\mittelwert.c.obj -c C:\Users\maxim\CLionProjects\AP1\01\src\mittelwert.c
+
+CMakeFiles/AP1.dir/01/src/mittelwert.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/AP1.dir/01/src/mittelwert.c.i"
+	"F:\CLion IntelliJ\CLion 2022.2.4\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\maxim\CLionProjects\AP1\01\src\mittelwert.c > CMakeFiles\AP1.dir\01\src\mittelwert.c.i
+
+CMakeFiles/AP1.dir/01/src/mittelwert.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/AP1.dir/01/src/mittelwert.c.s"
+	"F:\CLion IntelliJ\CLion 2022.2.4\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\maxim\CLionProjects\AP1\01\src\mittelwert.c -o CMakeFiles\AP1.dir\01\src\mittelwert.c.s
 
 # Object files for target AP1
 AP1_OBJECTS = \
 "CMakeFiles/AP1.dir/01/src/hallo.c.obj" \
 "CMakeFiles/AP1.dir/01/src/calculator.c.obj" \
 "CMakeFiles/AP1.dir/01/src/triangle.c.obj" \
-"CMakeFiles/AP1.dir/01/src/divideInt.c.obj"
+"CMakeFiles/AP1.dir/01/src/divideInt.c.obj" \
+"CMakeFiles/AP1.dir/01/src/mittelwert.c.obj"
 
 # External object files for target AP1
 AP1_EXTERNAL_OBJECTS =
@@ -138,11 +153,12 @@ AP1.exe: CMakeFiles/AP1.dir/01/src/hallo.c.obj
 AP1.exe: CMakeFiles/AP1.dir/01/src/calculator.c.obj
 AP1.exe: CMakeFiles/AP1.dir/01/src/triangle.c.obj
 AP1.exe: CMakeFiles/AP1.dir/01/src/divideInt.c.obj
+AP1.exe: CMakeFiles/AP1.dir/01/src/mittelwert.c.obj
 AP1.exe: CMakeFiles/AP1.dir/build.make
 AP1.exe: CMakeFiles/AP1.dir/linklibs.rsp
 AP1.exe: CMakeFiles/AP1.dir/objects1.rsp
 AP1.exe: CMakeFiles/AP1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\mramacher\CLionProjects\AP1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable AP1.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\maxim\CLionProjects\AP1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable AP1.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\AP1.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -154,6 +170,6 @@ CMakeFiles/AP1.dir/clean:
 .PHONY : CMakeFiles/AP1.dir/clean
 
 CMakeFiles/AP1.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\mramacher\CLionProjects\AP1 C:\Users\mramacher\CLionProjects\AP1 C:\Users\mramacher\CLionProjects\AP1\cmake-build-debug C:\Users\mramacher\CLionProjects\AP1\cmake-build-debug C:\Users\mramacher\CLionProjects\AP1\cmake-build-debug\CMakeFiles\AP1.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\maxim\CLionProjects\AP1 C:\Users\maxim\CLionProjects\AP1 C:\Users\maxim\CLionProjects\AP1\cmake-build-debug C:\Users\maxim\CLionProjects\AP1\cmake-build-debug C:\Users\maxim\CLionProjects\AP1\cmake-build-debug\CMakeFiles\AP1.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/AP1.dir/depend
 
