@@ -3,14 +3,16 @@
 //
 #include <stdio.h>
 #include <math.h>
-#include<unistd.h>
-void triangle(){
-    float a,b,c = 0;
-    float h, sum = 0;
 
-    printf("**********************************************\n");
+void triangle(){
+    float a = 0.00;
+    float b = 0.00;
+    float c = 0.00;
+    float h, sum;
+
+    printf("********************************************************************************\n");
     printf("Gegeben ist ein Dreieck mit den Gezeichneten Seiten a,b und c\n");
-    printf("**********************************************\n");
+    printf("********************************************************************************\n");
     printf("                       *\n");
     printf("                      ***\n");
     printf("            (b)    *********        (a)\n");
@@ -18,24 +20,21 @@ void triangle(){
     printf("             *********************\n");
     printf("          ***************************\n");
     printf("                        (c)\n");
+    printf("********************************************************************************\n");
     printf("Bitte geben Sie die Laenge der einzelnen Seiten zur Flaechenberechnung ein!\n");
+    printf("********************************************************************************\n");
     printf("Laenge Seite a:\n");
-    scanf(" %.2f\n",&a);
-    printf("Eingegebene Seite a: %.2f\n", a);
-    sleep(2);
+    scanf(" %f",&a);
     printf("Laenge Seite b:\n");
-    scanf(" %.2f\n",&b);
-    printf("Eingegebene Seite b: %.2f\n", b);
-
+    scanf(" %f",&b);
     printf("Laenge Seite c:\n");
-    scanf(" %.2f\n",&c);
-    printf("Eingegebene Seite c: %.2f\n", c);
+    scanf(" %f",&c);
 
-    h = (a+b+c) / 2;
-    printf("%.2f", h);
+    h = (a+b+c) / 2.00;
+    printf("Höhenergebnis ist: %f\n", h);
 
-   // sum = sqrt(h * (h - a) * (h - b) * (h - b));
-    //printf("Das Ergebnis ist %.2f", sum);//
+   sum = sqrt(h * (h - a) * (h - b) * (h - b));
+   printf("Das Endergebnis ist %f", sum);
 }
 
 int main(){
