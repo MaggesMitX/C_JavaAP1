@@ -1,3 +1,0 @@
-C:/Users/mramacher/CLionProjects/AP1/cmake-build-debug/CMakeFiles/AP1.dir
-C:/Users/mramacher/CLionProjects/AP1/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/mramacher/CLionProjects/AP1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
