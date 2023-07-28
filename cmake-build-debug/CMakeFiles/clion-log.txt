@@ -1,1 +1,0 @@
-CMakeLists.txt not found in C:\Users\maxim\CLionProjects\AP1 Select CMakeLists.txt
